@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head><title>@import + external.CSS+ 자식 스타일</title>
+    <!-- <link type="text/css" rel="stylesheet" href="./css/mystyle.css"> -->
+    <style>
+        /*@import url(./css/mystyle.css);*/
+        /*@import url('./css/mystyle.css');*/
+        @import "./css/external.css";
+        p{color:blue; font-size: 15px;}
+    </style>
+    </head>
+    <body>
+        <h3>@import + external.CSS+ 자식 스타일</h3>
+        <hr>
+        <p>그냥 p태그</p>
+        <p style="font-size: 25px">자식에게 폰트 사이즈</p>
+    </body>
+</html>
